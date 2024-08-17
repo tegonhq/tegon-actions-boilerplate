@@ -1,0 +1,10 @@
+{
+  "name": "email-work-tasks-everyday",
+  "triggers": [
+    {
+      "type": "on_create",
+      "entities": [ "Issue" ]
+    }
+  ],
+  "integrations": [ "slack" ]
+}
